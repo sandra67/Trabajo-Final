@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Index</title>
+        <img src="logo2.svg" alt="Logo" title="Logo"/>
+    </head>
+    <body>
+        <h1>Hoja de Vida</h1>
+            <h2>Sandra Ester Lauriente</h2>
+                <h3>Lugar de Nacimiento: Carmen de Patagones</h3>
+                <h3>Fecha de Nacimiento: 25 de Noviembre de 1967</h3>
+                <p><a href="index.html">Inicio</a></p>
+                <p><a href="educacion.html">Educación</a></p>
+                <p><a href="experiencia.html">Experiencia</a></p>
+            <h2>Educación</h2>
+            <table border=”1” cellpadding="0" cellspacing="0">
+            <thead>
+            <tr>
+                <td>Año</td>
+                <td>Institución</td>
+                <td>Lugar</td>
+                <td>¿Culminó?</td>
+            </tr>  
+            </thead>
+            <tbody>
+            <tr>
+                <td>1988</td>
+                <td>Instituto Superior Juan XXIII</td>
+                <td>Bahía Blanca</td>
+                <td>Si</td>
+            </tr>
+            <tr>
+                <td>2010</td>
+                <td>Instituto Superior de Innovaciones Pedagógicas</td>
+                <td>Buenos Aires</td>
+                <td>Sí</td>
+            </tr>
+            <tr>
+                <td>2011</td>
+                <td>Instituto de Formación Docente de Virtual Educa</td>
+                <td>Virtual</td>
+                <td>Sí</td>
+            </tr>
+            </tbody>
+        </table>
+        <form autocomplete="on">
+        <h2>Agregar estudios</h2>
+        <p>
+            <strong><label for="Año">Año:</label></strong>
+        <select>
+            <option>2016</option>
+            <option>2015</option>
+            <option>2014</option>
+        </select>
+        </p>
+       
+        <p>
+            <strong><label for="Institución">Institución:</label></strong>
+            <input type="text" name="Institución" placeholder="Ingresar Institución" required>
+        </p>
+        <p>
+            <strong><label for="Lugar">Lugar:</label></strong>
+            <input type="text" name="Lugar" placeholder="Ingresar lugar" required>
+        </p>
+        <p> 
+            <strong><label for="Culminó">¿Culminó?</label></strong>
+            <input type="radio" name="opcion" value="si">Si
+            <input type="radio" name="opcion" value="no">No           
+        </p>
+        <p><input type="button" name="Enviar" value="Enviar"></p>
+        
+     </body>
+     <footer>
+        <p>Correo: sandralauriente@yahoo.com.ar</p>
+        <p>Dirección: Italia 124- Carmen de Patagones- Prov de Bs As </p>
+     </footer>
+</html>
